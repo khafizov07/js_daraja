@@ -10,9 +10,9 @@ alert('Mana bolarkanu 😁' + son)
 let sonJuft = +prompt("Son kiriting biz juft yoki toqligini aniqlab beramiz")
 
 if (sonJuft % 2 === 0) {
-    alert("Siz juft son kiritingiz ");
+    alert("Siz juft son kiritingiz " +sonJuft);
 } else if (sonJuft % 2 === 1) {
-    alert("Siz toq son kiritingiz ");
+    alert("Siz toq son kiritingiz " +sonJuft);
 } else {
     alert('Siz sondan boshqa narsa kiritingiz');
 }
