@@ -7,11 +7,11 @@ while (isNaN(son)) {
 alert('Mana bolarkanu 😁' + son)
 
 
-let sonJuftToq = +prompt("Son kiriting biz juft yoki toqligini aniqlab beramiz")
+let sonJuft = +prompt("Son kiriting biz juft yoki toqligini aniqlab beramiz")
 
-if (sonJuftToq % 2 === 0) {
+if (sonJuft % 2 === 0) {
     alert("Siz juft son kiritingiz ");
-} else if (sonJuftToq % 2 === 1) {
+} else if (sonJuft % 2 === 1) {
     alert("Siz toq son kiritingiz ");
 } else {
     alert('Siz sondan boshqa narsa kiritingiz');
